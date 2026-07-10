@@ -1,0 +1,68 @@
+# Unity'nin oluşturduğu ve göz ardı edilmesi gereken klasörler
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# MemoryCaptures çok fazla yer kaplayabilir
+/[Mm]emoryCaptures/
+
+# Recordings (Kayıtlar) çok fazla yer kaplayabilir
+/[Rr]ecordings/
+
+# Asset Store Tools plugin'ini yoksaymak istersen aşağıdaki satırı aktif et
+# /[Aa]ssets/AssetStoreTools*
+
+# Otomatik oluşturulan Jetbrains Rider eklentisi
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Visual Studio ve IDE önbellekleri
+.vs/
+.gradle/
+.consulo/
+ExportedObj/
+
+# Otomatik oluşturulan Visual Studio / MonoDevelop proje ve çözüm (solution) dosyaları
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D'nin oluşturduğu gereksiz meta dosyaları
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Çökme (crash) raporlarında oluşturulan dosya
+sysinfo.txt
+
+# Derleme (Build) çıktıları
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Crashlytics dosyası
+crashlytics-build.properties
+
+# İşletim sistemi tarafından oluşturulan dosyalar (Windows / macOS)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
